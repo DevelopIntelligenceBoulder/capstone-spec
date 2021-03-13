@@ -66,7 +66,7 @@ The above listing of data fields is not necessarily comprehensive. You'll also o
 * CRUD for customer orders
 * Browse the product catalog (as a CSR adds or removes products from an order, the product count needs to be updated)
 * Browse the customer database
-* Track the shipping status of the order and communicate with shipping vendor (HOW DO WE WANT TO MODEL THEM CALLING AN EXTERNAL ASYNC API FOR UPDATES ON SHIPPING STATUS?)
+* Track and change the shipping status of the order
 
 ## API starting point
  
