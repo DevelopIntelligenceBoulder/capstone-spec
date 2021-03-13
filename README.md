@@ -60,10 +60,12 @@ Amplify the productivity of TJX customer service representatives. You will creat
 
 The above listing of data fields is not necessarily comprehensive. You'll also observe that a real database schema is only hinted at. This is not a prescriptive data model, and it's a fact of software development that data models change over time; that's why there is an entire art of schema migrations. One thing clearly lacking from the above is a means by which to link together the customers, orders, and products.
 
-## Application operations
-### CSRs will be able to
+## Application requirements
+### CSRs need to be able to
 * Authenticate themselves via a login mechanism
-* CRUD for customer orders
+* CRUD for Orders including the ability to interactively add products from the Product catalog
+* There must be the ability to save an Order as a draft
+* Tie the order to a Customer
 * Browse the product catalog (as a CSR adds or removes products from an order, the product count needs to be updated)
 * Browse the customer database
 * Track and change the shipping status of the order
