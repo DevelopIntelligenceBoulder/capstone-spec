@@ -71,6 +71,21 @@ The above listing of data fields is not necessarily comprehensive. You'll also o
 * Track and change the shipping status of the order
 
 ## API starting point
+| Method | URLs | Actions |
+| :---   | :--- |    :--- |
+|  GET  |  api/customers  |  Get all customers  |
+|  GET  |  api/customers/:id  |  Get specific customer  |
+|  POST  |  api/customers  |  Create new customer  |
+|  PUT  |  api/customers/:id  |  Modify existing customer  |
+|  DELETE  |  api/customers/:id  |  Remove customer (data compliance/right to be forgotten)  |
+|  GET  |  api/orders  |  Get all orders  |
+|  GET  |  api/orders/:id  |  Get specific order  |
+|  POST  |  api/orders  |  Create new order (think about how to differentiate between draft and live orders)  |
+|  PUT  |  api/orders/:id  |  Modify existing order  |
+|  DELETE  |  api/orders/:id  |  Delete a draft order (shouldn't allow for deletion of live orders)  |
+|  GET  |  api/products  |  Get all products  |
+|  GET  |  api/products/:id  |  Get specific product  |
+|  PUT  |  api/products/:id  |  Increment/Decrement product inventory  |
  
 ## First steps
 1. Discuss the architecture of the app amongst the team. Create a diagram that illustrates the flow data between various components.
