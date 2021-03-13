@@ -42,12 +42,10 @@ Amplify the productivity of TJX customer service representatives. You will creat
     - phone
     - email
     - customer_notes
-    - addresses (implies the need for a separate Addresses table)
-    - payment_methods (will need to store payment methods and link them to both the customer and the order)
+    - address
 * Orders
     - order_id (PK)
     - customer_id (FK)
-    - customer_payment_method_id (FK)
     - order_status_code (FK) (**Draft/Open/Finalized/Preparing to ship/Ready for shipping/Shipped/Delivered/Closed**)
     - datetime_order_placed
     - total_order_price
