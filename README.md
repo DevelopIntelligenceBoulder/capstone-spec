@@ -8,7 +8,6 @@ To amplify the productivity of customer service representatives (CSR). You will 
     - API must documented using OpenAPI specification. Additional Swagger tools can be used as desired.
 * Backend 
     - (Express/Node.js) is required
-    - The choice of additional Express middleware is unconstrained
 * Frontend tech choices are left to your discretion
     - Wireframing: [Figma](https://www.figma.com/) is recommended
     - CSS: [Bulma](https://bulma.io/) is recommended 
