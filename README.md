@@ -1,15 +1,22 @@
 # Project: Create an "Order Tracking" application
  
 ## Application purpose
-Amplify the productivity of TJX customer service representatives. You will create an application that allows CSRs to create and modify both customers and their orders, search a product catalog against which orders can be created, and manage the functional lifecycle of all orders.
+To amplify the productivity of customer service representatives (CSR). You will create an application that allows CSRs to create and modify both customers and their orders, search a product catalog against which orders can be created, and manage the functional lifecycle of all orders.
 
 ## Tech stack
+* Documentation
+    - API must documented using OpenAPI specification. Additional Swagger tools can be used as desired.
 * Backend 
     - (Express/Node.js) is required
     - The choice of additional Express middleware is unconstrained
 * Frontend tech choices are left to your discretion
+    - Wireframing: [Figma](https://www.figma.com/) is recommended
     - CSS: [Bulma](https://bulma.io/) is recommended 
-    - JS: [JQuery](https://jquery.com/) is recommended
+    - JS: [JQuery](https://jquery.com/) and [Axios](https://github.com/axios/axios) are recommended, but Angular and React are options if previously experienced with them.
+* Relational database choice is MySQL. A NoSQL solution can be used instead if a compelling case can be made. Additional software for analytics is unconstrained.
+* Github actions will be used for CI/CD pipelines in conjunction with Azure.
+* Authentication and authorization solutions are unconstrained.
+* Testing framework is left unconstrained, but either Mocha or Jest are recommended.
  
 ## Order lifecycle
 * Customer calls in an order
