@@ -10,7 +10,7 @@
 - Team distribution
 - DevSecOps team sketches full end to end CI/CD pipeline
 - SQL setup (ORM? tables first? teardown/refresh SQL script?)
-- UI/UX team does wireframes
+- Frontend does wireframes
 - Documentation team preps the capstone doc
 - Testing team decides on testing framework
 
@@ -18,16 +18,15 @@
 - SCM repo connected to GitHub Actions
 - Blank apps for Front-End and Back-End
 Begin development:
-- Back-End Dev team implements logic for a single route (full travel to the controller for a request)
-- UI/UX team starts making static web pages
-- Front-End Dev team starts making API calls
+- Backend team implements logic for a single route (full travel to the controller for a request)
+- Frontend team implements the wireframes as static pages
 - DevSecOps team makes deployment environments (server, client, and DB) on Azure
 - Database team designs table schemas and communicates with Back-End Dev team
 
 # 3
 - Build out the rest of the API routes
 - Testing team develops tests for the new API routes as they are created
-- Front-End Dev and UI/UX teams connect pages to functions - make HTML dynamically
+- Frontend team connects pages to functions - make HTML dynamically
 - DevSecOps team has full end to end CI/CD pipeline working, switches to implementing authentication/authorization with Back-End team
 
 # 4
