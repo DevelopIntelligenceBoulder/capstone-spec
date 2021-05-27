@@ -17,7 +17,7 @@
 # 2
 - SCM repo connected to GitHub Actions
 - Blank apps for Front-End and Back-End
-Begin development:
+## Begin development:
 - Backend team implements logic for a single route (full travel to the controller for a request)
 - Frontend team implements the wireframes as static pages
 - DevSecOps team makes deployment environments (server, client, and DB) on Azure
